@@ -3,9 +3,9 @@ import styles from "../styles/components/Profile.module.css";
 export function Profile() {
   return (
     <div className={styles.profileContainer}>
-      <img src="https://github.com/librity.png" alt="Librity the I of Israel" />
+      <img src="https://github.com/librity.png" alt="ליאור בן יוסף" />
       <div>
-        <strong>Librity the I of Israel</strong>
+        <strong>ליאור בן יוסף</strong>
         <p>
           <img src="icons/level.svg" alt="Current level" />
           Level 1
