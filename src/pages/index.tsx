@@ -8,7 +8,7 @@ import { CompletedChallenges } from "../components/CompletedChallenges";
 import { Countdown } from "../components/Countdown";
 import { ChallengeBox } from "../components/ChallengeBox";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -29,4 +29,6 @@ export default function Home() {
       </section>
     </div>
   );
-}
+};
+
+export default Home;
