@@ -9,9 +9,9 @@ export const Profile = () => {
 
   return (
     <div className={styles.profileContainer}>
-      <img src="https://github.com/librity.png" alt="ליאור בן יוסף" />
+      <img src="https://github.com/librity.png" alt="Luis Geniole" />
       <div>
-        <strong>ליאור בן יוסף</strong>
+        <strong>Luis Geniole</strong>
         <p>
           <img src="icons/level.svg" alt="Current level" />
           Level {level}
